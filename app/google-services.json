@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1083523554406",
+    "firebase_url": "https://emsyrpc-37916.firebaseio.com",
+    "project_id": "emsyrpc-37916",
+    "storage_bucket": "emsyrpc-37916.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083523554406:android:24e5166447b067268ea1a7",
+        "android_client_info": {
+          "package_name": "com.emsyrpc.faps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1083523554406-o2pcbmachhl4nshm4u5f5tnbmj81tpcv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEnkLkNcIU9aMN-5nIH7HQKzuDfyokkmY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1083523554406-o2pcbmachhl4nshm4u5f5tnbmj81tpcv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

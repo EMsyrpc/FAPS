@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screen_mostrar">
+
+    <TextView
+        android:id="@+id/mostr_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginStart="167dp"
+        android:layout_marginTop="113dp"
+        android:layout_marginEnd="187dp"
+        android:layout_marginBottom="80dp"
+        app:layout_constraintBottom_toTopOf="@+id/mostr_dni"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center"
+        android:hint="Apellido y Nombre"
+        />
+
+
+    <TextView
+        android:id="@+id/mostr_dni"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginStart="167dp"
+        android:layout_marginEnd="187dp"
+        android:layout_marginBottom="80dp"
+        app:layout_constraintBottom_toTopOf="@+id/mostr_fecha"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:gravity="center"
+        android:hint="Documento (DNI)"/>
+
+    <TextView
+        android:id="@+id/mostr_fecha"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginStart="169dp"
+        android:layout_marginEnd="185dp"
+        android:layout_marginBottom="84dp"
+        app:layout_constraintBottom_toTopOf="@+id/mostr_telef"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:gravity="center"
+        android:hint="Fecha Nacimiento"/>
+
+    <TextView
+        android:id="@+id/mostr_telef"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginEnd="184dp"
+        android:layout_marginBottom="298dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:gravity="center"
+        android:hint="Telefono"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
